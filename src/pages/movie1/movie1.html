@@ -1,0 +1,52 @@
+<!--
+  Generated template for the Movie1Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Donde Nace el Sol</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-row *ngIf="show === false">
+    <ion-col col-12 class="center">
+      <img src="assets/imgs/TVQ-peliculas-donde-nace-el-sol.png" alt="Donde Nace El Sol">
+    </ion-col>
+    <button ion-button block (click)="pay()">PayPal USD 0.99</button>
+  </ion-row>
+
+  <ion-row *ngIf="show === true">
+    <ion-col>
+      <video src="http://tvq.tv/movies/Donde%20Nace%20El%20Sol.mp4" controls controlsList="nodownload"></video>
+    </ion-col>
+  </ion-row>
+
+  <ion-row padding>
+    <ion-col col-12> 
+      <div class="ctn-text">
+          <span class="bold">Titulo:</span>
+          <span class="text-white">Donde Nace el Sol</span>
+      </div>
+      <div class="ctn-text">
+          <span class="bold">Duración:</span>
+          <span class="text-white">85min</span>
+      </div>
+      <div class="ctn-text">
+          <span class="bold">Director:</span>
+          <span class="text-white">Gustav Möller</span>
+      </div>
+      <div class="ctn-text">
+          <p class="text-white">
+              Se narra el sufrimiento ocasionado por la conquista, la persecución durante la guerra y se muestran aspectos clave en su cultura, como la relación con la naturaleza y el res-peto a los ancestros. Los protagonistas son Priscila Simón, Betzabé Simón, Juanita Pu-zul, Felipe Gómez, Ajpu Nicho, Walter Pax y Juan Pablo Olyslager, un actor de tra-yectoria en las películas de Casa Comal.
+          </p>
+      </div>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

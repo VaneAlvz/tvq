@@ -1,0 +1,46 @@
+<ion-content class="background">
+    <button ion-button menuToggle clear color="light">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <div>
+      <img src="assets/imgs/menu-2-inicio.png" class="img-fluid">
+    </div>
+    <div class="small-padding black-opacity">
+      <ion-row>
+        <ion-col col-4 offset-2>
+          <a (click)="movies()">
+            <img src="assets/imgs/menu-2-fondo-icon-1.png">
+          </a>
+        </ion-col>
+        <ion-col col-4>
+          <a (click)="news()">
+            <img src="assets/imgs/menu-2-fondo-icon-2.png">
+          </a>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4 offset-2>
+          <a (click)="live()">
+            <img src="assets/imgs/menu-2-fondo-icon-3.png">
+          </a>
+        </ion-col>
+        <ion-col col-4>
+          <a (click)="sport()">
+            <img src="assets/imgs/menu-3-fondo-icon-deportes.png">
+          </a>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4 offset-2>
+          <a href="https://api.whatsapp.com/send?phone= 502{49049194}"> 
+            <img src="assets/imgs/menu-2-fondo-icon-5.png">
+          </a>
+        </ion-col>
+        <ion-col col-4>
+          <a (click)="social()"> 
+            <img src="assets/imgs/menu-2-fondo-icon-6.png">
+          </a>
+        </ion-col>
+      </ion-row>
+    </div>
+</ion-content>

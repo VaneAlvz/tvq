@@ -1,0 +1,17 @@
+page-sports {
+    .black-opacity {
+        background-color:rgba(0, 0, 0, 0.5);
+    }
+
+    .imagen-comunicate{
+    	background-image: url(../assets/imgs/sport-contact.png);
+	    background-repeat: no-repeat;
+	    padding: 7px 116px;
+	    color: black;
+	    font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

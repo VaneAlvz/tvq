@@ -1,0 +1,51 @@
+page-register {
+    
+    ion-item.item.item-block.item-md.item-input.item-label-fixed.ng-untouched.ng-valid.ng-dirty {
+        border-radius: 50px;
+        margin-top: 10px;
+        background: transparent;
+        border: solid 1px #e2a82b;
+    }
+
+    ion-item.item.item-block.item-md.item-input.item-label-fixed.ng-untouched.ng-valid.input-has-value.item-input-has-value.ng-dirty {
+        border-radius: 50px;
+        margin-top: 10px;
+        background: transparent;
+        border: solid 1px #e2a82b;
+    }
+
+    ion-item.item.item-block.item-md.item-input.item-label-fixed.ng-untouched.ng-pristine.ng-valid, item-inner {
+        border-radius: 50px;
+        margin-top: 10px;
+        background: transparent;
+        border: solid 1px #e2a82b;
+    }
+    
+    
+        
+    ion-item.item.item-block.item-ios.item-input.item-label-fixed {
+        border-radius: 50px;
+        margin-top: 10px;
+        background: transparent;
+        border: solid 1px #e2a82b;
+    }
+
+    ion-label[fixed] {
+        width: 24px !important;
+        min-width: 24px !important;
+        max-width: 34px !important;
+        border-right: solid 1px #e2a82b;
+    }
+
+    .login-otro {
+        margin: 0px;
+        padding: 5px 0;
+        background-color: #e2a82b;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 800;
+        border-radius: 50px;
+        color: black
+    }
+
+}

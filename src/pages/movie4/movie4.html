@@ -1,0 +1,52 @@
+<!--
+  Generated template for the Movie4Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Las Cruces</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-row *ngIf="show === false">
+      <ion-col col-12 class="center">
+        <img src="assets/imgs/TVQ-peliculas-lascruces.png" alt="Las Cruces">
+      </ion-col>
+      <button ion-button block (click)="pay()">PayPal USD 0.99</button>
+    </ion-row>
+  
+    <ion-row *ngIf="show === true"> 
+      <ion-col>
+        <video src="http://tvq.tv/movies/Las%20Cruces.mp4" controls controlsList="nodownload"></video>
+      </ion-col>
+    </ion-row>
+  
+    <ion-row padding>
+      <ion-col col-12> 
+        <div class="ctn-text">
+            <span class="bold">Titulo:</span>
+            <span class="text-white">Las Cruces</span>
+        </div>
+        <div class="ctn-text">
+            <span class="bold">Duración:</span>
+            <span class="text-white">85min</span>
+        </div>
+        <div class="ctn-text">
+            <span class="bold">Director:</span>
+            <span class="text-white">Gustav Möller</span>
+        </div>
+        <div class="ctn-text">
+            <p class="text-white">
+                Poblado próximo se remonta a los tiempos de la guerrilla en los años 80. La comunidad de Esperanza ha sido arrazada por “los pintos” (el ejercicio) y llega el aviso que el próximo objetivo es la comunidad de Las Cruces. En las cruces conocemos importantes tradiciones mayas en sus fiestas y su modo de vivir rodeados de naturaleza, aunque con la intranquilidad causada por el conflicto interno que se desarrolla en el país. La decisión de huir o luchar debe ser analizada por los líderes de la comunidad y llega el apoyo de siete guerrilleros dispuestos a arriesgar su vida por proteger al pueblo. Estos combatientes son los mejores en su área, reunidos por la idea de la revolución, viviendo en la montaña duran-te varios años. Sin embargo lo que viene es inesperado para todos y surgirán conflictos de opiniones, política y de ideales entre los habitantes del pueblo y los guerrilleros.
+            </p>
+        </div>
+      </ion-col>
+    </ion-row>
+  
+  </ion-content>  

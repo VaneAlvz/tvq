@@ -1,0 +1,80 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.background {
+    background-image: url(../assets/imgs/menu-2-fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.background-sport {
+    background-image: url(../assets/imgs/menu-3-fondo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.big-padding {
+    padding: 100px 0 !important;
+}
+
+.small-padding {
+    padding: 30px 0 !important;
+}
+
+.bottom-padding {
+    padding-bottom: 30px;
+}
+
+.logo-inicio {
+    width: 35%;
+    margin-top: 15px;
+}
+
+.btn {
+    background: #e2a82b;
+    color: black;
+    width: 150px;
+}
+
+.tool-border {
+    border-bottom: solid 1px #e2a82b;
+    margin-bottom: 20px;
+}
+
+.tool-border b {
+    color: white;
+}
+
+.videoWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+video {
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "tvq",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

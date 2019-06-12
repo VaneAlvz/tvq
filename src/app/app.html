@@ -1,0 +1,30 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar padding class="tool-border">
+      <ion-row>
+        <ion-col col-6 offset-3>
+          <img src="assets/imgs/logotipo-tvquetzachapin.png" class="img-fluid">
+        </ion-col>
+        <ion-col col-12 text-center>
+          <b>{{correo}}</b>
+        </ion-col>
+      </ion-row>   
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        {{p.title}}
+      </button>
+      <button ion-item onclick="window.open('https://tvq.tv/desarrollo/#!/blog', '_system', 'location=yes'); return false;">
+          Blog
+      </button>
+      <button ion-item (click)="logout()">Logout</button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

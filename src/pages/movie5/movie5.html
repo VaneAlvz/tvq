@@ -1,0 +1,52 @@
+<!--
+  Generated template for the Movie5Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>VIP La Otra Casa</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-row *ngIf="show === false">
+      <ion-col col-12 class="center">
+        <img src="assets/imgs/TVQ-peliculas-vip-la-otracasa.png" alt="Donde Nace El Sol">
+      </ion-col>
+      <button ion-button block (click)="pay()">PayPal USD 0.99</button>
+    </ion-row>
+  
+    <ion-row *ngIf="show === true"> 
+      <ion-col>
+        <video src="http://tvq.tv/movies/VIP...%20la%20otra%20casa.mp4" controls controlsList="nodownload"></video>
+      </ion-col>
+    </ion-row>
+  
+    <ion-row padding>
+      <ion-col col-12> 
+        <div class="ctn-text">
+            <span class="bold">Titulo:</span>
+            <span class="text-white">VIP La Otra Casa</span>
+        </div>
+        <div class="ctn-text">
+            <span class="bold">Duración:</span>
+            <span class="text-white">85min</span>
+        </div>
+        <div class="ctn-text">
+            <span class="bold">Director:</span>
+            <span class="text-white">Gustav Möller</span>
+        </div>
+        <div class="ctn-text">
+            <p class="text-white">
+                El filme, de drama y acción, cuenta la vida de un presidiario dentro de la cárcel más peligrosa de Guatemala. Está protagonizada por Juan Pablo Olyslager, Douglas Vásquez, Roberto Díaz Gomar, Susana Mora-zán, Mónica Wálter, Édgar Arreola, Herbert Ignacio, Joam Solo y Jorge Asturias
+            </p>
+        </div>
+      </ion-col>
+    </ion-row>
+  
+  </ion-content>  

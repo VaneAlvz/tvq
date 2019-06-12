@@ -1,0 +1,52 @@
+<!--
+  Generated template for the Movie3Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>La Casa de Enfrente</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-row *ngIf="show === false">
+      <ion-col col-12 class="center">
+        <img src="assets/imgs/TVQ-peliculas-la-casa-de-enfrente.png" alt="La Casa de Enfrente">
+      </ion-col>
+      <button ion-button block (click)="pay()">PayPal USD 0.99</button>
+    </ion-row>
+  
+    <ion-row *ngIf="show === true"> 
+      <ion-col>
+        <video src="http://tvq.tv/movies/CASA_DE_ENFRENTE.m4v" controls controlsList="nodownload"></video>
+      </ion-col>
+    </ion-row>
+  
+    <ion-row padding>
+      <ion-col col-12> 
+        <div class="ctn-text">
+            <span class="bold">Titulo:</span>
+            <span class="text-white">La Casa de Enfrente</span>
+        </div>
+        <div class="ctn-text">
+            <span class="bold">Duración:</span>
+            <span class="text-white">85min</span>
+        </div>
+        <div class="ctn-text">
+            <span class="bold">Director:</span>
+            <span class="text-white">Gustav Möller</span>
+        </div>
+        <div class="ctn-text">
+            <p class="text-white">
+                El pequeño pueblo costero de Roquesas de Mar se ve conmocionado por la desaparición de una de sus vecinas: la joven Sandra López, de dieciséis años de edad. Cuando hallan el cadáver de la muchacha, horriblemente mutilado, todos sospechan de Álvaro Alsina como el autor del crimen. La biempensante sociedad local comienza una caza de brujas culpando del crimen a Álvaro, al mismo tiempo que se va tejiendo una tupida red de engaños en torno a su persona, con el único fin de incriminarlo.
+            </p>
+        </div>
+      </ion-col>
+    </ion-row>
+  
+  </ion-content>
